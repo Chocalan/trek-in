@@ -1,0 +1,31 @@
+@media only screen and (min-eidth: 1280px) {
+body {
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+}
+
+}
+
+.grafico {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    }
+    
+  .bar-graph {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+    }
+    
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }

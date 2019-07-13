@@ -1,0 +1,28 @@
+.articulo {
+    &__texto {
+      position: relative;
+      left: 7rem;
+      width: 18rem;
+      top: 3rem;
+      }
+  
+    &__montana {
+      position: relative;
+      top: -20rem;
+      z-index: -1;
+      }
+
+    }
+
+.caracteristicas {
+  margin-left: 5rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.cara {
+  display: inline-block;
+}
+
+  
